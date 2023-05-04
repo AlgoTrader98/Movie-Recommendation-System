@@ -1,5 +1,6 @@
 
-# %%
+%pip install pandas
+
 import pandas as pd
 
 url = 'https://raw.githubusercontent.com/AlgoTrader98/Movie-Recommendation-System/main/Data/tmdb_5000_movies.csv'
