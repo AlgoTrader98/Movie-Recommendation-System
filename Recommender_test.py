@@ -17,7 +17,7 @@ def get_user_input(movies):
     print("Please enter your preferred genres (separated by commas): ")
     genres = prompt("", completer=genre_completer).lower().split(', ')
 
-    print("Please enter the minimum release year: ")
+    print("Please enter the minimum release year < 2018: ")
     min_year = int(input())
 
     print("Please enter the minimum average rating (1-10): ")
