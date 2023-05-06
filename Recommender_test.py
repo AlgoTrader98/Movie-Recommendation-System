@@ -5,7 +5,6 @@ from prompt_toolkit.completion import WordCompleter
 
 movies = pd.read_csv('Data/moviedatafinal.csv')
 
-
 def get_user_input(movies):
     all_genres = set()
     for genres in movies['genre_names']:
