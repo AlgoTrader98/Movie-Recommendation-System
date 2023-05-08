@@ -1,11 +1,6 @@
 import streamlit as st
 import pandas as pd
 import ast
-from prompt_toolkit.completion import WordCompleter
-
-import pandas as pd
-import ast
-import streamlit as st
 movies = pd.read_csv('Data/moviedatafinal.csv')
 
 def local_css(file_name):
