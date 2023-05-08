@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import ast
-from prompt_toolkit import prompt
 from prompt_toolkit.completion import WordCompleter
 
 import pandas as pd
