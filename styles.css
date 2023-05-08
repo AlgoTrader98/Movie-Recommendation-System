@@ -11,10 +11,12 @@ h1 {
 h4 {
     font-weight: bold;
     margin-bottom: 5px;
+    color: #fff;
 }
 
 .movie-card {
     background-color: #333;
+    color: #fff;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -23,4 +25,5 @@ h4 {
 
 .movie-card p {
     margin-bottom: 5px;
+    color: #fff;
 }

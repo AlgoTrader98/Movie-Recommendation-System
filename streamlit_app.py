@@ -79,7 +79,7 @@ def recommend_movies(filtered_movies, num_recommendations=5):
 def run_movie_recommendation_system():
         user_genres, min_year, min_rating, min_num_ratings, movie1, movie2 = get_user_input(movies)
         filtered_movies = filter_movies(movies, user_genres, min_year, min_rating, min_num_ratings)
-        fitting_movies = find_fitting_movies(filtered_movies, movie1, movie2)
+        fitting_movies = filter_movies_by_user_movies(filtered_movies, movie1, movie2)
         recommend_movies(fitting_movies)
 
 
