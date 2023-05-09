@@ -1,2 +1,0 @@
-django-admin startproject movierecommendations
-
